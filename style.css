@@ -109,26 +109,6 @@ section div p {
     margin-bottom:5%;
 }
 
-section div button {
-    color: white;
-    background-color:rgb(250, 113, 1);  
-    height:45px;
-    width:140px;
-    font-size:18px;
-    border: none;
-    border-radius:26px;
-    cursor: pointer;
-    right: 50px;
-    
-    
-}
-
-section div button:hover{
-    background-color:rgb(107, 51, 5);
-    border:3px solid rgb(250, 113, 1);
-    transition: 0.5s; 
-   
-}
 
 .projetos{
     background-color:rgb(31, 29, 29); 
@@ -317,25 +297,7 @@ section{
          padding-top:2%;
        
     }
-        section div button {
-            color: white;
-            background-color:rgb(250, 113, 1);  
-            font-weight:25px;
-            font-size:70px;
-            margin-left:40px;
-            font-size:10px;
-            border: none;
-            border-radius:16px;
-            cursor: pointer;
-            
-        }
-
-        section div button:hover{
-            background-color:rgb(107, 51, 5);
-            border:3px solid rgb(250, 113, 1);
-            transition: 0.5s; 
-           
-        }
+       
         .projetos{
             background-color:rgb(31, 29, 29); 
             display:list-item;
