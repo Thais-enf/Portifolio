@@ -227,7 +227,7 @@ footer p {
 
 
 
-@media screen and (max-width:712px ) {
+@media screen and (orientation: portrait){
     .caixa-principal{
     background-color:rgb(31, 29, 29);
     background-image: none;
@@ -235,14 +235,22 @@ footer p {
     
     nav {
         
-        padding-left:0px;
-        padding-right:7%;
+        padding-left:0;
+        padding-right:0;
+        display:block;
+        text-align: center;
         
     }
-    h1 {
-        color: white;
-        font-weight:75px;
-        margin-right: 50px; 
+    .portfolio {
+        color: rgb(250, 113, 1);
+        font-size:40px;
+        font-weight:300;
+    }
+    
+   
+    .meu-nome h1{
+        color:white;
+        font-size:15px;
     }
     
     h1 span{
@@ -251,23 +259,24 @@ footer p {
     
     .meu-nome h3{
         color:white;
-        font-size: 25px;
+        font-size:15px;
     }
     
     h3 span{
         color:rgb(250, 113, 1); 
-        margin-right: 50px;
+     
     }
     
-
-    li{
-  
-        display:inherit;
-        padding: 5px 10px 5px 25px;
-        font-size:25px;
-        margin-right:250px;
+    .link-menu{
+        display:grid;
+        font-size:15px;
+        font-weight: 15px;
+        margin-right:2px;    
+        
         
     }
+
+   
     
 section{
     display:grid;
